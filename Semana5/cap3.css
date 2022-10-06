@@ -1,0 +1,23 @@
+.titulo,h3 {
+    color: blue;
+}
+
+div.contenedor{
+    border: 2px dotted black;
+}
+
+div.contenedor p{
+    color: seagreen;
+}
+
+div.contenedor>p{
+    text-align: center;
+    color: violet;
+}
+body>div{
+    background-color: aqua;
+}
+
+div.contenedor>div>p{
+    text-decoration: underline;
+}

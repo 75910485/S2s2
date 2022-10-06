@@ -1,0 +1,42 @@
+
+nav{
+    background:steelblue;
+}
+
+h2{
+    color:blue;
+}
+
+/*seletor de clases*/
+.titulo{
+    text-align: center;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+
+#idsec{
+    border: 4px solid black;
+}
+
+/*selectores de atributos, solo para los enlaces*/
+[href]{
+    text-decoration: none;
+}
+
+[href="#"]{
+     color: blue;
+}
+
+[href^="htttps"]{
+    color: olive;
+}
+
+[href="htttps://www.google.com"]{
+    color: brown;
+}
+
+[href$="..com"]{
+    text-decoration: underline;
+}
